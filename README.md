@@ -1,16 +1,150 @@
-# React + Vite
+# Edusity – Educational Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Edusity is a modern, responsive educational landing page built with React.
+The project presents an academic platform layout including programs, campus
+gallery, testimonials, and contact sections using a clean component-based
+architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Built with React (Functional Components & Hooks)
+- Component-based structure for easy maintenance
+- Video modal player controlled via React state
+- Responsive navigation bar
+- Programs showcase section
+- Campus gallery
+- Student testimonials
+- Contact form section
+- Fully responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Application Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application is a single-page layout composed of reusable components:
+
+Navbar  
+Hero  
+Programs  
+About (with video trigger)  
+Campus  
+Testimonials  
+Contact  
+Footer  
+VideoPlayer (modal)
+
+The video modal state is managed globally in App.jsx using React useState.
+
+---
+
+## Main App Logic
+
+The video player visibility is controlled using React state:
+
+playState → controls opening and closing the video modal  
+setPlayState → passed to About and VideoPlayer components
+
+This keeps the state management clean and centralized.
+
+---
+
+## Built With
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+
+---
+
+## Project Structure
+
+```
+src
+├── components
+│   ├── Navbar
+│   ├── Hero
+│   ├── Programs
+│   ├── Title
+│   ├── About
+│   ├── Campus
+│   ├── Testimonials
+│   ├── Contact
+│   ├── Footer
+│   └── VideoPlayer
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Getting Started
+
+Prerequisites:
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+Installation:
+
+```
+git clone https://github.com/KamelMustafa/Edusity.git
+cd Edusity
+npm install
+```
+
+Run the project:
+
+```
+npm run dev
+```
+
+The application will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```
+npm run build
+```
+
+Preview production build:
+
+```
+npm run preview
+```
+
+---
+
+## Use Case
+
+This project is suitable for:
+
+- Educational platforms
+- University or academy websites
+- Frontend portfolio projects
+- Practicing React component-based architecture
+
+---
+
+## Author
+
+Kamel Mustafa  
+Frontend Developer  
+GitHub: https://github.com/KamelMustafa
+
+---
+
+## License
+
+This project is open-source and intended for learning and portfolio use.
