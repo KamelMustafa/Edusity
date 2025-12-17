@@ -46,10 +46,8 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-                Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
-                state-of-the-art facilities, and commitment to academic
-                excellence have truly exceeded my expectations.
+                Choosing Edusity was one of my best decisions. The supportive
+                community and modern facilities exceeded my expectations.
               </p>
             </div>
           </li>
@@ -63,10 +61,8 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-                Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
-                state-of-the-art facilities, and commitment to academic
-                excellence have truly exceeded my expectations.
+                Choosing Edusity was one of my best decisions. The supportive
+                community and modern facilities exceeded my expectations.
               </p>
             </div>
           </li>
@@ -80,10 +76,8 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-                Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
-                state-of-the-art facilities, and commitment to academic
-                excellence have truly exceeded my expectations.
+                Choosing Edusity was one of my best decisions. The supportive
+                community and modern facilities exceeded my expectations.
               </p>
             </div>
           </li>
@@ -97,10 +91,8 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-                Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
-                state-of-the-art facilities, and commitment to academic
-                excellence have truly exceeded my expectations.
+                Choosing Edusity was one of my best decisions. The supportive
+                community and modern facilities exceeded my expectations.
               </p>
             </div>
           </li>
